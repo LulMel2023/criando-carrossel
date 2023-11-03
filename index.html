@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="icon" type="imagem/png" href="Logo novo.jpg" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://drive.google.com/file/d/133s2ZbjHdtKyD2Xh-4EuYcNclEIDjTq5/view?usp=sharing">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="Pag.js"></script>
+  
+    
+    
+  
+</head>
+<body>
+
+  <header class="header">
+
+    <img src="Logo novo.jpg" alt="" class="header_logo">
+
+    <span id="hamburguer" class="material-symbols-rounded">
+      menu
+      </span>
+    
+    <nav id="itens_menu" class="header_nav">
+      
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pag002.html">Quem somos</a></li>
+        <li><a href="pag003.html">Local</a></li>
+        <li><a href="pag004.html">Cardapio</a></li>
+        <li><a href="pag005.html">Contato</a></li>
+        <li><a href="pag006.html">Fotos</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <main>
+    <section class="fundo_main">
+
+      <h1>Luh Mel</h1>
+      <h1>DOCERIA</h1>
+      
+  
+  <audio src="./Imagens/yt5s.com - Chocolate com Pimenta - Deborah Blando (128 kbps).mp3" controls >Som</audio>
+   
+   <h2>Venha se saborear com os deliciosos bolos e doces da LuhMel Doceria</h2>
+   
+   <h3>Escolha seu sabor <a href="pag004.html"> =►Cardapio</a></h3>
+
+   
+   
+   <h4>FATIA DE BOLO</h4>
+  
+  <img src="/Imagens/fatia de bolo.jpg"/>
+  
+  <p>Bolo de chocolate com recheio de mousse de chocolate e mouse de maracujá</p>
+  
+  <h4>BOLO NO POTE</h4>
+  
+  <img src="/imagens/bolo no pote.jpg"/>
+  
+  <p>Bolo no pote de chocolate , morango com coco, bolo de morango com maracujá, bolo de prestigio, bolo de doce de leite, bolo de chocolate com leite ninho e Nutella.</p>
+  
+  
+  
+  <h4>COPO DA FELICIDADE</h4>
+  
+  <img src="/imagens/copo da felicidade.jpg"/>
+  
+  <P>Copo da felicidade com  morangos</P>
+  
+  <h4>TRUFAS</h4>
+  
+  <img src="/imagens/trufas.jpg"/>
+  
+  <p>Trufas de Chocolate , Morango, Menta, Nutella, Maracujá.</p>
+  
+  <h4>BRIGADEIRO DE MORANGO</h4>
+  
+  <img src="/imagens/brigadeiro com morango.jpg"/>
+  
+  <p>Brigadeiro com morango inteiro. </p>
+  
+  
+  <h2>Bolos com ingredientes de excelente qualidade!</h2>
+  
+  
+  <img src="/imagens/pote da felicidade.jpg"/>
+  
+  <h2>Hummmmm!!! Vem experimentar!!!</h2>      
+    </section>
+   </main>
+
+
+<footer class="logos_footer">
+
+  <div>
+    <a href="#">
+        <img src="linkedin.png" alt="" class="tamanho">
+    </a>
+</div>
+  <div>
+      <a href="#">
+          <img src="whatsapp.png" alt="" class="tamanho">
+      </a>
+  </div>
+  <div>
+    <a href="#">
+        <img src="instagram.png" alt="" class="tamanho">
+    </a>
+</div>
+  <div>
+      <a href="#">
+          <img src="facebook.png" alt="" class="tamanho">
+      </a>
+  </div>
+  
+  
+  
+  <p class="texto_footer">
+      ♥ Descodificadas ♥
+  </p>
+  
+</footer>
+
+<script>
+  var hamburguer = document.getElementById('hamburguer');
+  var itens_menu = document.getElementById('itens_menu');
+
+  hamburguer.addEventListener('click', aparecer);
+
+  function aparecer(){
+      if(itens_menu.style.display =='block'){
+          itens_menu.classList.remove('show');
+      } else {
+          itens_menu.classList.toggle('show');
+      }
+  }
+</script>
+
+</body>
+</html>
